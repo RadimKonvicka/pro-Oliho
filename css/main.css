@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url("../img/bg-oli.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+a{
+    color: blue    ;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center; 
+    color: #ffffff;
+    font-size: 30px; 
+    margin-top: 30px; 
+    text-transform: uppercase; 
+}
+
+h3 a {
+    color: #ffffff; 
+    font-size: 20px; 
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #38479c; 
+    text-decoration: underline; 
+}
+
+main {
+    width: 1200px; 
+    margin: 0 auto; 
+}
+
+.flex-container {
+    display: flex; 
+    background-color: #363636; 
+    flex-wrap: wrap; 
+}
+  
+.flex-container > div {
+    background-color: #5f5f5f; 
+    margin: 10px; 
+    padding: 20px; 
+    font-size: 14px; 
+    flex: 25%; 
+}
+
+div{
+    border: solid 3px black;
+}
+
+li{
+    list-style-type: circle ;
+    padding: 7px;
+    list-style-position: inside ;
+    font-size: 112%;
+    font-size: 140%;
+}
+
+footer {
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    margin-top: 50px;
+}
+
+.signature{
+    color: rgb(255, 255, 255);
+ }
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%; 
+    }   
+     
+    .flex-container {
+        flex-direction: column; 
+    }
+}
